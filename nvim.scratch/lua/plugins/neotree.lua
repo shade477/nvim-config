@@ -1,6 +1,7 @@
 return
  {
-    "nvim-tree/nvim-tree.lua",
+    "nvim-neo-tree/neo-tree.nvim",
+    branch = "v3.x",
     dependencies = 
       {
       "nvim-lua/plenary.nvim",
@@ -11,8 +12,8 @@ return
 
       local map = vim.keymap.set
 
-      map('n', '<C-n>', '<cmd>NvimTreeToggle<CR>', { desc = "nvimtree toggle window" })
-      map('n', '<leader>e', '<cmd>NvimTreeFocus<CR>', { desc = "nvimtree focus window" })
+      map('n', '<C-n>', ':Neotree filesystem reveal left<CR>', { desc = "nvimtree toggle window" })
+      map('n', '<leader>e', ':Neotree focus<CR>', { desc = "nvimtree focus window" })
     end
   }
 
