@@ -1,0 +1,12 @@
+{
+  "NvChad": { "branch": "v2.5", "commit": "8d2bb359e47d816e67ff86b5ce2d8f5abfe2b631" },
+  "conform.nvim": { "branch": "master", "commit": "1a99fdc1d3aa9ccdf3021e67982a679a8c5c740c" },
+  "lazy.nvim": { "branch": "main", "commit": "077102c5bfc578693f12377846d427f49bc50076" },
+  "mason-lspconfig.nvim": { "branch": "main", "commit": "25c11854aa25558ee6c03432edfa0df0217324be" },
+  "mason.nvim": { "branch": "main", "commit": "e2f7f9044ec30067bc11800a9e266664b88cda22" },
+  "none-ls.nvim": { "branch": "main", "commit": "9b98991e15dce8fc502993e23caac2528b8b667f" },
+  "nvim-dap": { "branch": "master", "commit": "90616ae6ae40053103dc66872886fc26b94c70c8" },
+  "nvim-dap-go": { "branch": "main", "commit": "5511788255c92bdd845f8d9690f88e2e0f0ff9f2" },
+  "nvim-lspconfig": { "branch": "master", "commit": "b064131428f6bbbbc905f4451ba6779fda334a3a" },
+  "nvim-treesitter": { "branch": "master", "commit": "929ca9c76ee20bb27cffbde4ee90583b6c54d616" }
+}
