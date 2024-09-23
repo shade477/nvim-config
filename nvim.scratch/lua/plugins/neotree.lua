@@ -12,8 +12,8 @@ return
 
       local map = vim.keymap.set
 
-      map('n', '<C-n>', ':Neotree filesystem reveal left<CR>', { desc = "nvimtree toggle window" })
-      map('n', '<leader>e', ':Neotree focus<CR>', { desc = "nvimtree focus window" })
+      map('n', '<C-n>', ':Neotree filesystem reveal left toggle<CR>', { desc = "nvimtree toggle window" })
+      map('n', '<leader>e', ':Neotree focus toggle<CR>', { desc = "nvimtree focus window" })
     end
   }
 
